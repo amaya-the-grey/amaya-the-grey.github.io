@@ -1,36 +1,41 @@
 /* Main properties */
 html,body{
-  font-family: 'Raleway', sans-serif;
   font-size:16px;
   line-height:1.5;
-  color: #505166;
+  color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 
 h1 {
-  font-size: 40px;
-  padding:0.01em 16px;
+  font-size: 64px;
+  padding:0px 0px 2px 0px;
   color: #505166;
+  margin: 2px 0px;
+  font-family: cursive;
 }
 
 h2 {
   font-size: 26px;
-  margin-bottom: 8px;
+  margin: 8px 0px 16px 0px;
+  font-family: 'Source Code Pro', monospace;
+  color: #505166;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
   margin: 4px;
+  font-family: 'Source Code Pro', monospace;
 }
 
 p {
   padding-left: 16px;
-  margin: 12px 0;
+  margin: 8px 0;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #505166;
 }
 
 a:hover {
@@ -58,7 +63,7 @@ li {
 /* Containers */
 
 .header {
-  max-width: 1400px;
+  max-width: 1366px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -68,7 +73,7 @@ li {
 }
 
 .footer {
-  max-width: 1400px;
+  max-width: 1366px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -78,6 +83,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1400px;
 }
 
 .grid {
@@ -86,7 +92,7 @@ li {
 }
 
 .main-container {
-  margin: 16px auto;
+  margin: 8px auto;
   max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
@@ -94,7 +100,7 @@ li {
 
 .left-column {
   flex: 0 0 25%;
-  min-width: 330px;
+  min-width: 350px;
   margin-right: 16px;
 }
 
@@ -168,6 +174,14 @@ li {
   font-family: 'Source Code Pro', monospace;
 }
 
+.stalemate {
+  font-family: 'Stalemate', cursive;
+}
+
+.allura {
+  font-family: 'Allura', cursive;
+}
+
 /* Colors */
 .dark-purple {
   background-color: #505166;
@@ -186,5 +200,5 @@ li {
 }
 
 .light-grey {
-  background-color: #E1DEE4;
+  background-color: #F0EDF3;
 }
