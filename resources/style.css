@@ -8,24 +8,25 @@ html,body{
 
 
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   padding:0px 0px 2px 0px;
   color: #505166;
-  margin: 2px 0px;
+  margin: 0px 0px;
   font-family: cursive;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 24px;
   margin: 8px 0px 16px 0px;
   font-family: 'Source Code Pro', monospace;
   color: #505166;
 }
 
 h3 {
-  font-size: 22px;
-  margin: 4px;
+  font-size: 20px;
+  margin: 8px;
   font-family: 'Source Code Pro', monospace;
+  color: #505166;
 }
 
 p {
